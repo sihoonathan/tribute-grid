@@ -29,6 +29,9 @@
 
 #img-div {
     grid-area: img-div;
+    background-color: white;
+    max-width: 90%;
+    justify-self: center;
 }
 
 #tribute-info {

@@ -1,0 +1,77 @@
+.bold {
+    font-weight: bold;
+}
+
+#main {
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+            '. title title .'
+            'img-div img-div img-div img-div'
+            '. tribute-info tribute-info .'
+            '. link link .';
+    background-color: #EEEEEE;
+
+}
+
+#title {
+    grid-area: title;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+#sub {
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+#img-div {
+    grid-area: img-div;
+}
+
+#tribute-info {
+    grid-area: tribute-info;
+}
+
+#link {
+    grid-area: link;
+
+    max-width: 50%;
+    justify-self: center;
+    margin: 2rem;
+}
+
+#image {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    max-width: 80%;
+    height: auto;
+    margin: 1rem auto 2rem;
+}
+
+#tribute-info > h2 {
+    margin: 2rem 0;
+}
+
+#tribute-info > ul {
+    text-align: left;
+    max-width: 50%;
+    list-style-type: disc;
+    margin: 0 auto;
+}
+
+ul li {
+    margin: 1rem;
+}
+
+#quote {
+    max-width: 60%;
+    margin: 2rem auto;
+}
